@@ -1,13 +1,9 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Visualization</title>
 
-<head>
-    <meta charset='utf-8'>
-
-    <!-- Title -->
-    <title>Jonathan R. Moore</title>
-
-    <!-- CSS Styling -->
     <link rel='stylesheet' href='style.css'>
 
     <!-- Favicons -->
@@ -19,21 +15,24 @@
     <meta name='msapplication-TileColor' content='#da532c'>
     <meta name='msapplication-config' content='favicons/browserconfig.xml'>
     <meta name='theme-color' content='#ffffff'>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="content-pane">
-        <h1>My Personal Website</h1>
-        <p>I'm a 4th year student at Northeastern University. I'm currently persuing a combined BS in
-            Computer Science and Business Administration with a business concentration in Finance. I will 
-            graduate and be available to work starting July 1st, 2022.
-        </p>
-        <p>
-            Here is a visualization I created: <a href="data_viz.html">Projects</a>
-        </p>
+        <h1>My Visualization</h1>
     </div>
+    <div class='vis-holder'>
+      
+      <svg id='vis-svg-1' preserveAspectRatio='xMidYMid meet' class='vis-svg' viewBox='95 30 900 500' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+
+      </svg>
+    </div>
+  
+    <script src='lib/d3.v7.3.0/d3.js'></script>
+    <script src='js/firstVis.js'></script>
+    <script src='js/visualization.js'></script>
 
 </body>
 
 
-</html>
+</html> 

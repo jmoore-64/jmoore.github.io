@@ -5,10 +5,11 @@ body {
 }
 
 h1, h2, h3 {
-	line-height: 1.2
+	text-align:center;
+	line-height: 1.2;
 }
 
 .content-pane {
-	max-width: 650px;
+	max-width: 1000px;
 	margin: 40px auto;
 }
